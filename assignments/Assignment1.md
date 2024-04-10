@@ -6,4 +6,21 @@ Emmet is a plugin or web development tool kit that allows develpoers to write HT
 <br>
 html:5-basic structure of an HTML5 document.<br>
 ul>li*5-nested elements<br>
-div.container#main-content= <div class="container" id="main-content"></div>"
+div.container#main-content= <div class="container" id="main-content"></div>
+
+2.Difference between a Library and Framework?
+<br>
+A Library is a collection of reusable code modules that can be called upon by a program.It provides functions and routines that can be directly used by your code.<br>
+Think library is like a toolbox where you can pick and choose specific tools(functions)to use in your projects.you decide when and how to use each tool.
+<br>
+A framework sets up structure for your code and provides a foundation on which to build your application.It often dectates the flow of control,and your code fills in the details or hooks into the framework's predefined behaviour.<br>
+A framework is more like a set of blueprints for building a house.It provides the overall structure and guidelines for how to build your project.You foloow the blue print and fill in the details to create your application.<br>
+
+
+3.What is CDN? Why do we use it?
+CDN stands fron Content Delivery Network.It's network of servers distributed geographically to deliver web content more efficiently to users.CDN caches copies of content in multiple locaton,reducing the distance between the user and the server,which improves loading times and overall performances.Its used to enhance website speed,reliability an scalabilty ,particularly for websites with high traffic or global audiences.
+<br>
+Think of a CDN like a network of delivery trucks.Instead of one big truck traveling long distance to deliver packages to everyone,there are many smaller trucks strategically placed closer to different negibourhood.This speeds up the delivery because packages dont have to travel so far.Similiarly,a CDN stors copies of website content (like images,videos,and scripts) on servers around the world.When someone visits a website,they get the content from the nearest server insted of the main server,making the website load faster.<br>
+
+
+
