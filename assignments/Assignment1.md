@@ -1,11 +1,10 @@
 <h1>Assignment-1</h1><br>
 
 <h3>1.What is Emmet?</h3>
-<pre>
+
 Emmet is a plugin or web development tool kit that allows develpoers to write HTML and CSS code quickly and efficiently using abbrevations.
 It enables users to generate complex HTML and CSS structures by typing simple abbrevations and then expanding them into full code snippets.
 Emmet is commonly used in code editors and IDEs to boost productivity and streamline the process of writing markup and styling code.
-</pre>
 <br>
 html:5-basic structure of an HTML5 document.<br>
 ul>li*5-nested elements<br>
@@ -35,5 +34,16 @@ The crossorigin attribute can have different values:<br>
 anonymous:This value indicates that the cript is requesting resources without sending any credentials such as cookies,along with the requests.Its typically used for public resources that dont require authentication.<br>
 user-credentials:This value indicates that the srcript requires credentials to be included with the request.It's used when the script needs access to protected resources that require authentication.<br>
 By default ,when crossorigin attribute is not specified,the browser assumes the value is anonymous.Uisng the crossorigin attribute helps prevent certain types of security vulnerablties such as cross-site scripting attacks,by controlling how resources from different origins are accessed.<br>
+
+<h3>6.What is the difference between React and ReactDOM?</h3>
+1.React:React is a js library for building UI.It provides a declarative and efficient way to create reusable UI components.React allows developers to describe how the UI should look at any given point of time.and it automatically updates and the renders the right components when the data changes.(Helps you build web app with reusable pieces called componenets.It's like the blueprint for the app.)<br>
+2.ReactDOM:ReactDOM is a package that provides DOM-specific methods that react uses to interact with DOM.It serves as the glue between react components and DOM.ReactDOM handles the actual rendering of those components into the browser's DOM.<br>
+
+<h3>7.What is the difference react.development.s and react.production.js files via CDN?</h3>
+1.The react.development.js and react.production.js files are two different versions of the React library that are distributed via a content delivery network (CDN).<br>
+
+2.The main difference between the two files is that the development version is optimized for debugging and development, while the production version is optimized for performance and deployment.<br>
+
+3.In general, you should use the react.development.js file when you are developing and debugging your React application. Once you are ready to deploy your application to production, you should switch to the react.production.js file.<br>
 
 
