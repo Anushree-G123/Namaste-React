@@ -46,4 +46,17 @@ By default ,when crossorigin attribute is not specified,the browser assumes the 
 
 3.In general, you should use the react.development.js file when you are developing and debugging your React application. Once you are ready to deploy your application to production, you should switch to the react.production.js file.<br>
 
+<h3>8.What is async and defer?</h3>
+<p>1.In Normal HTML Parsing, html parsing goes on, as soon as the script tag is encountered, html parsing is stopped and the script is feteched from the network and then they are executed and then after that HTML parsing continues.</p><br>
+
+2.In Async HTML Parsing, html parsing goes on, and scripts are fetched in asyn manner i.e. parallely. Once the scripts are available, html parsing is stopped and scripts are executed and then after that HTML parsing continues.<br>
+
+3.In Defer HTML Parsing, html parsing goes on, and scripts are fetched in asyn manner i.e. parallely and will start the execution after the completion of the html parsing.<br>
+
+4.Async attribute dos not guarantee the order of execution of the scripts. But Defer does guarantee. So Defer is Preferable.<br>
+
+<h3>Why React is a Library</h3>
+1.React is a library of JS its main job is to render UI and doesnt dictate structure of app or work flow.<br>
+2.Reusable UI components available and can be applied to small part of tha application rather than applying it to a whole application leaving overall architecture and statemanagement to the developer.Hence flexible.<br>
+
 
