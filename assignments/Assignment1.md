@@ -25,7 +25,7 @@ Think of a CDN like a network of delivery trucks.Instead of one big truck travel
 <h3>4.Why is React known as React</h3>
 React got its name because of its reactive nature.It was designed to react to changes in data and automatically upadte the user interface accordingly.This reactive paradigm is at the core of React's functionality,hence the name "React.<br>
 
-<h3>5.sWhat is CROSSORIGIN script tag?
+<h3>5.sWhat is CROSSORIGIN script tag?</h3>
 The crossorigin attribute in a script tag is used to specify how the browser should handle requets made by the script tag when fetching resources from a different origin(ie,a different domain,protocol,port).It is commonly used when loading scripts from external sources such as CDNs.<br>
 
 The crossorigin attribute can have different values:
