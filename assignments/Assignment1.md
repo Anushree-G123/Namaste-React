@@ -1,8 +1,11 @@
 <h1>Assignment-1</h1><br>
 
 <h3>1.What is Emmet?</h3>
-
-Emmet is a plugin or web development tool kit that allows develpoers to write HTML and CSS code quickly and efficiently using abbrevations.It enables users to generate complex HTML and CSS structures by typing simple abbrevations and then expanding them into full code snippets.Emmet is commonly used in code editors and IDEs to boost productivity and streamline the process of writing markup and styling code.
+<pre>
+Emmet is a plugin or web development tool kit that allows develpoers to write HTML and CSS code quickly and efficiently using abbrevations.
+It enables users to generate complex HTML and CSS structures by typing simple abbrevations and then expanding them into full code snippets.
+Emmet is commonly used in code editors and IDEs to boost productivity and streamline the process of writing markup and styling code.
+</pre>
 <br>
 html:5-basic structure of an HTML5 document.<br>
 ul>li*5-nested elements<br>
@@ -25,10 +28,10 @@ Think of a CDN like a network of delivery trucks.Instead of one big truck travel
 <h3>4.Why is React known as React</h3>
 React got its name because of its reactive nature.It was designed to react to changes in data and automatically upadte the user interface accordingly.This reactive paradigm is at the core of React's functionality,hence the name "React.<br>
 
-<h3>5.sWhat is CROSSORIGIN script tag?</h3>
+<h3>5.What is CROSSORIGIN script tag?</h3>
 The crossorigin attribute in a script tag is used to specify how the browser should handle requets made by the script tag when fetching resources from a different origin(ie,a different domain,protocol,port).It is commonly used when loading scripts from external sources such as CDNs.<br>
 
-The crossorigin attribute can have different values:
+The crossorigin attribute can have different values:<br>
 anonymous:This value indicates that the cript is requesting resources without sending any credentials such as cookies,along with the requests.Its typically used for public resources that dont require authentication.<br>
 user-credentials:This value indicates that the srcript requires credentials to be included with the request.It's used when the script needs access to protected resources that require authentication.<br>
 By default ,when crossorigin attribute is not specified,the browser assumes the value is anonymous.Uisng the crossorigin attribute helps prevent certain types of security vulnerablties such as cross-site scripting attacks,by controlling how resources from different origins are accessed.<br>
