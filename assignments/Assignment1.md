@@ -36,8 +36,8 @@ user-credentials:This value indicates that the srcript requires credentials to b
 By default ,when crossorigin attribute is not specified,the browser assumes the value is anonymous.Uisng the crossorigin attribute helps prevent certain types of security vulnerablties such as cross-site scripting attacks,by controlling how resources from different origins are accessed.<br>
 
 <h3>6.What is the difference between React and ReactDOM?</h3>
-1.React:React is a js library for building UI.It provides a declarative and efficient way to create reusable UI components.React allows developers to describe how the UI should look at any given point of time.and it automatically updates and the renders the right components when the data changes.(Helps you build web app with reusable pieces called componenets.It's like the blueprint for the app.)<br>
-2.ReactDOM:ReactDOM is a package that provides DOM-specific methods that react uses to interact with DOM.It serves as the glue between react components and DOM.ReactDOM handles the actual rendering of those components into the browser's DOM.<br>
+<p>1.React:React is a js library for building UI.It provides a declarative and efficient way to create reusable UI components.React allows developers to describe how the UI should look at any given point of time.and it automatically updates and the renders the right components when the data changes.(Helps you build web app with reusable pieces called componenets.It's like the blueprint for the app.)</pr>
+<p>2.ReactDOM:ReactDOM is a package that provides DOM-specific methods that react uses to interact with DOM.It serves as the glue between react components and DOM.ReactDOM handles the actual rendering of those components into the browser's DOM.</pr>
 
 <h3>7.What is the difference react.development.s and react.production.js files via CDN?</h3>
 1.The react.development.js and react.production.js files are two different versions of the React library that are distributed via a content delivery network (CDN).<br>
