@@ -6,10 +6,10 @@
 
 <h3>2.What is 'Parcel/Webpack'?Why do we need it?</h3>
 <li>webpack</li>
-<ul>Powerful module bundler for javascript applications.</ul>
-<ul>Bundles javascript files,CSS,images and other assests.</ul>
-<ul>Help organise code and optimize code for production</ul>
-<ul>supports features like code splitting,hot module replacement.</ul>
-<ul>Highly configurable but requires more setup than parcel</ul>
+<li>Powerful module bundler for javascript applications.</li>
+<li>Bundles javascript files,CSS,images and other assests.</li>
+<li>Help organise code and optimize code for production</li>
+<li>supports features like code splitting,hot module replacement.</li>
+<li>Highly configurable but requires more setup than parcel</li>
 
 
