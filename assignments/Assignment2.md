@@ -5,7 +5,7 @@
 <p>Allows developer to easily access and integrate various libraries,frameworks,tools into their projects.</p>
 
 <h3>2.What is 'Parcel/Webpack'?Why do we need it?</h3>
-<li>webpack</li>
+<h4>webpack</h4>
 <li>Powerful module bundler for javascript applications.</li>
 <li>Bundles javascript files,CSS,images and other assests.</li>
 <li>Help organise code and optimize code for production</li>
